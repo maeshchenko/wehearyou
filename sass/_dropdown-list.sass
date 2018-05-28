@@ -1,0 +1,50 @@
+select.custom-dropdown
+	/*REMOVES BORDER
+	-webkit-appearance: none
+	/*REMOVES DEFAULT CHROME & SAFARI STYLE
+	-moz-appearance: none
+	/*REMOVES DEFAULT FIREFOX STYLE
+	border: 1px solid #B9B9B9 !important
+	/*REMOVES BORDER
+	color: #B9B9B9
+	-webkit-border-radius: 10px
+	border-radius: 10px
+	font-size: 21px
+	padding: 10px
+	width: 100%
+	cursor: pointer
+	background: transparent url(../img/arrows.png) no-repeat
+	background-size: 20px 28px
+	background-position: 98% center
+	/*TO ACCOUNT FOR @2X IMAGE FOR RETINA
+
+input.custom-1,textarea.custom-1
+	border: 1px solid #B9B9B9
+	color: #B9B9B9
+	border-radius: 10px
+	font-family: 'Raleway', sans-serif
+	font-size: 21px
+	width: 100%
+	background-color: transparent
+	padding: 10px
+	text-align: left
+	&:focus
+		&::-moz-placeholder
+			color: transparent
+		&:-moz-placeholder
+			color: transparent
+		&::-webkit-input-placeholder
+			color: transparent
+		border-radius: 10px
+
+input[type = checkbox]
+	&.custom_checkbox
+		display: none
+label.label_checked
+	&:before
+		content: "\2713"
+		font-size: 40px
+		text-align: center
+		line-height: 15px
+		color: #F3B53A
+
